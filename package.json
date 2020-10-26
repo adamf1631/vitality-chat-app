@@ -1,0 +1,20 @@
+{
+	"name": "chat-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "serve.js",
+	"scripts": {
+		"server": "node server",
+		"dev": "nodemon server"
+	},
+	"author": "me",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"moment": "^2.29.1",
+		"socket.io": "^2.3.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}

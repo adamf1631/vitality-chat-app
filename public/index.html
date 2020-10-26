@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>VITALity Healthcare Services</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header header-link">
+				<h1>
+					<a href="https://vitality.camdendiocese.org/" target="_blank">
+						<img
+							src="vitality_Logo.png"
+							alt="VITALity Healthcare Services"
+							width="200px"
+						/>
+					</a>
+				</h1>
+			</header>
+			<main class="join-main">
+				<div id="errorMess"></div>
+				<form id="user-form" action="chat.html">
+					<div class="form-control">
+						<label for="username">Username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Create a username..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Select Room</label>
+						<select name="room" id="room">
+							<option value="Parish Nurse Ministry">
+								Parish Nurse Ministry
+							</option>
+							<option value="St. Stephen Ministry">St. Stephen Ministry</option>
+							<option value="Ministry with Persons with Disibilities">
+								Ministry with Persons with Disibilities
+							</option>
+							<option value="Ministry with the Deaf">
+								Ministry with the Deaf
+							</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">Join Chat</button>
+				</form>
+			</main>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
